@@ -7,6 +7,11 @@ public class CallWebDriverFactory {
 
     public static void main(String[] args) {
 
+
+        /**
+         *
+         * not dusebilirisn  ( once gorevi tanimlamak icin kullan )
+         */
         WebDriver driver;
         driver = WebDriverFactory.getDriver("chrome");
 
@@ -14,3 +19,4 @@ public class CallWebDriverFactory {
 
     }
 }
+
